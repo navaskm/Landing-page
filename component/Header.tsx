@@ -42,7 +42,7 @@ const Header = () => {
         <button className="rounded-full border border-white/15 px-4 py-2 text-sm text-white transition hover:border-white/40 hover:bg-white/10">
           Sign in
         </button>
-        <button className="rounded-full bg-white px-4 py-2 text-sm font-semibold text-slate-900 transition hover:shadow-[0_10px_40px_-15px_rgba(0,0,0,0.45)]">
+        <button className="rounded-full bg-white px-4 py-2 text-sm font-semibold text-slate-900 transition-all duration-500 ease-out hover:scale-[1.03] hover:shadow-lg hover:bg-gradient-to-r hover:from-purple-500 hover:to-cyan-400 hover:text-white">
           Get early access
         </button>
       </div>
