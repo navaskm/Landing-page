@@ -33,19 +33,21 @@ const Testimonials = () => (
 
     <div className="grid gap-6 md:grid-cols-2">
       {testimonials.map((item, idx) => (
-        <motion.div
-          key={item.name}
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0, transition: { delay: idx * 0.1 } }}
-          viewport={{ once: true, amount: 0.2 }}
-          className="rounded-2xl border border-white/10 bg-white/5 p-6 shadow-xl shadow-purple-500/10"
-        >
-          <p className="text-lg text-white/90">“{item.quote}”</p>
-          <div className="mt-4 text-sm font-semibold text-white">
-            {item.name}
-          </div>
-          <div className="text-sm text-white/70">{item.role}</div>
-        </motion.div>
+        <div className="rounded-2xl bg-gradient-to-r from-purple-500 to-cyan-400 p-[1px]">
+          <motion.div
+            key={item.name}
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0, transition: { delay: idx * 0.1 } }}
+            viewport={{ once: true, amount: 0.2 }}
+            className="rounded-[15px] bg-slate-950 p-6"
+          >
+            <p className="text-lg text-white/90">“{item.quote}”</p>
+            <div className="mt-4 text-sm font-semibold text-white">
+              {item.name}
+            </div>
+            <div className="text-sm text-white/70">{item.role}</div>
+          </motion.div>
+        </div>
       ))}
     </div>
   </section>

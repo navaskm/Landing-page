@@ -38,3 +38,19 @@ a {
 html {
   scroll-behavior: smooth;
 }
+
+@keyframes rotateBorder {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-rotate-border {
+  background: conic-gradient(
+    from 0deg,
+    #a855f7,
+    #22d3ee,
+    #a855f7
+  );
+  animation: rotateBorder 8s linear infinite;
+}
