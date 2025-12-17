@@ -34,3 +34,7 @@ a {
     radial-gradient(circle at 90% 10%, rgba(6, 182, 212, 0.1), transparent 28%),
     #05060b;
 }
+
+html {
+  scroll-behavior: smooth;
+}
