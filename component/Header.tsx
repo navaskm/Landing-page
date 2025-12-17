@@ -17,13 +17,22 @@ const Header = () => {
 
       {/* center of header */}
       <div className="hidden items-center gap-8 text-sm text-slate-200 sm:flex">
-        <a className="hover:text-white transition-colors" href="#features">
+        <a className="relative transition-colors text-slate-200 hover:text-white
+             after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:w-0
+             after:bg-white after:transition-all after:duration-300
+             hover:after:w-full" href="#features">
           Features
         </a>
-        <a className="hover:text-white transition-colors" href="#pricing">
+        <a className="relative transition-colors text-slate-200 hover:text-white
+             after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:w-0
+             after:bg-white after:transition-all after:duration-300
+             hover:after:w-full" href="#pricing">
           Pricing
         </a>
-        <a className="hover:text-white transition-colors" href="#testimonials">
+        <a className="relative transition-colors text-slate-200 hover:text-white
+             after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:w-0
+             after:bg-white after:transition-all after:duration-300
+             hover:after:w-full" href="#testimonials">
           Stories
         </a>
       </div>
