@@ -11,16 +11,16 @@ const Footer = () => (
     </div>
     <div className="flex flex-wrap gap-4 text-white/70">
       <a className="hover:text-white" href="https://www.linkedin.com/company/sammunat/">
-        LinkedIn
+        <img src="/linkedin.png" alt="LinkedIn" className="w-7 rounded" />
       </a>
       <a className="hover:text-white" href="https://www.instagram.com/sammunat_llc">
-        Instagram
+        <img src="/instagram.png" alt="Instagram" className="w-7 rounded" />
       </a>
       <a className="hover:text-white" href="https://whatsapp.com/channel/0029VbAgR4SFMqrhDNF3l11T">
-        WhatsApp
+        <img src="/whatsapp.png" alt="WhatsApp" className="w-7 rounded" />
       </a>
       <a className="hover:text-white" href="mailto:hello@sammunat.com">
-        Contact
+        <img src="/contact.png" alt="Contact" className="w-7 rounded" />
       </a>
     </div>
   </footer>
